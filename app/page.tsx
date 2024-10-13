@@ -10,17 +10,32 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+// import {
+//   IconBrandGithub,
+//   IconBrandX,
+//   IconExchange,
+//   IconHome,
+//   IconNewSection,
+//   IconTerminal2,
+// } from "@tabler/icons-react";
+// import { FloatingDock } from "@/components/ui/floating-dock";
 
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+        {/* <FloatingNav navItems={navItems} /> */}
+        {/* <FloatingDock
+          mobileClassName="translate-y-20" // only for demo, remove for production
+          desktopClassName="translate-y-20 z-10"
+          items={links}
+        /> */}
         <Hero />
+        {/* <FloatingNav navItems={navItems} /> */}
         <Grid />
         <RecentProjects />
-        <Clients />
-        <Experience />
+        {/* <Clients /> */}
+        {/* <Experience /> */}
         <Approach />
         <Footer />
       </div>
