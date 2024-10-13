@@ -79,6 +79,7 @@ export const projects = [
     img: "/insight.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/figma.png"],
     link: "https://insightblend.com/",
+    holder: "https://insightblend.com/",
   },
   {
     id: 2,
@@ -87,23 +88,32 @@ export const projects = [
     img: "/Heydu.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.png"],
     link: "https://shorturl.at/iwqh2",
+    holder: "Heydu",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "/ui.aiimg.com",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 3,
+    title: "Placement Plus",
+    des: "Designed an intuitive and efficient platform to streamline the tracking of missed job applications and notifications. Crafted user-centric interfaces that help students effortlessly manage job applications, exam schedules, and important deadlines, while enhancing platform adoption across educational institutions.",
+    img: "/pp.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.png"],
+    link: "",
+    holder: "Placement Plus",
+  },
+  {
+    id: 4,
+    title: "Software Square",
+    des: "Designing a modern landing page for Software Square, a startup dedicated to tech enthusiasts. The design emphasizes a clean and responsive layout, ensuring seamless user experience across devices.",
+    img: "/ss.webp",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/figma.png",
+    ],
+    link: "https://software-square.vercel.app/",
+    holder: "Software Square",
+  },
 ];
 
 export const testimonials = [
