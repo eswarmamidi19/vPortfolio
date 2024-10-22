@@ -68,7 +68,7 @@ export default function Page() {
         {/* Table */}
         <div className="w-full md:w-2/3 flex flex-col text-[15px] md:px-9">
           <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
-            <p>Client</p>
+            <p>Client </p>
             <p>Barter S.A</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
