@@ -35,9 +35,56 @@ export default function Page() {
       </div>
 
       {/* Main Project Image */}
-      <div className=" mt-10 md:mt-20 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl"></div>
+      <div
+        className={cn(
+          "mt-10 md:mt-20 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
+          openSans.className
+        )}
+      ></div>
       {/* Project details */}
-      <div className=" mt-10 md:mt-20 w-full  rounded-3xl"></div>
+      <div
+        className={cn(
+          "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:gap-0 ",
+          openSans.className
+        )}
+      >
+        {/* details */}
+        <div className="flex flex-col w-full md:w-1/3 gap-3 ">
+          <h2 className="text-[30px] md:text-[50px] ">
+            <span className="text-gray-500"> Project</span> Details
+          </h2>
+          <div className=" text-sm md:text-xl flex flex-col gap-3 ">
+            <div>
+              Barter S.A. is a dynamically developing company in the energy
+              sector
+            </div>
+            <div className="text-gray-500">
+              The Company's basic business profile is the sale and distribution
+              of liquefied petroleum gas, LNG and fertilizers. BARTER S.A. is a
+              stable, constantly developing business partner.
+            </div>
+          </div>
+        </div>
+        {/* Table */}
+        <div className="w-full md:w-2/3 flex flex-col text-[15px] md:px-9">
+          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+            <p>Client</p>
+            <p>Barter S.A</p>
+          </div>
+          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+            <p>Services</p>
+            <p>Website Redesign</p>
+          </div>
+          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+            <p>Year</p>
+            <p>2024</p>
+          </div>
+          <div className="flex items-center justify-between h-[70px]  py-14">
+            <p>Site</p>
+            <p className=" underline underline-offset-1">Visit Website</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
