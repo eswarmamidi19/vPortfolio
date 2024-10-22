@@ -59,9 +59,9 @@ export default function Page() {
               sector
             </div>
             <div className="text-gray-500">
-              The Company's basic business profile is the sale and distribution
-              of liquefied petroleum gas, LNG and fertilizers. BARTER S.A. is a
-              stable, constantly developing business partner.
+              The Company&apos;s basic business profile is the sale and
+              distribution of liquefied petroleum gas, LNG and fertilizers.
+              BARTER S.A. is a stable, constantly developing business partner.
             </div>
           </div>
         </div>
