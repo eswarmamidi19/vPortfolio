@@ -3,14 +3,14 @@ import { Open_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/Footer";
+
 const openSans = Open_Sans({
   subsets: ["latin"],
   display: "swap",
 });
 
-
 const clashDisplay = localFont({
-  src: "../../../public/fonts/clashDisplay.ttf",
+  src: "../(fonts)/clashDisplay.ttf",
 });
 
 export default function Page() {
@@ -99,11 +99,11 @@ export default function Page() {
       </div>
       {/* Image pair */}
       <div className="w-full flex flex-col md:flex-row gap-10">
-          <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
-          <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
+        <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
+        <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
       </div>
 
-       <div
+      <div
         className={cn(
           "mt-10 md:mt-8 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
           clashDisplay.className
