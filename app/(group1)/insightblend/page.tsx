@@ -1,11 +1,17 @@
 import { FaArrowTurnDown } from "react-icons/fa6";
 import { Open_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-
+import Footer from "@/components/Footer";
 const openSans = Open_Sans({
   subsets: ["latin"],
   display: "swap",
 });
+
+const clashDisplay = localFont({
+  src: "../../../public/fonts/clashDisplay.ttf",
+});
+
 export default function Page() {
   return (
     <div
@@ -15,7 +21,7 @@ export default function Page() {
       <div
         className={cn(
           "text-[20px] md:text-[58px]  flex justify-between ",
-          openSans.className
+          clashDisplay.className
         )}
       >
         <h2>InsightBlend-Analytics</h2>
@@ -38,14 +44,14 @@ export default function Page() {
       <div
         className={cn(
           "mt-10 md:mt-20 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
-          openSans.className
+          clashDisplay.className
         )}
       ></div>
       {/* Project details */}
       <div
         className={cn(
           "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:gap-0 ",
-          openSans.className
+          clashDisplay.className
         )}
       >
         {/* details */}
@@ -59,32 +65,51 @@ export default function Page() {
               sector
             </div>
             <div className="text-gray-500">
-              The Company&apos;s basic business profile is the sale and
+              The Company &apos;s basic business profile is the sale and
               distribution of liquefied petroleum gas, LNG and fertilizers.
               BARTER S.A. is a stable, constantly developing business partner.
             </div>
           </div>
         </div>
         {/* Table */}
-        <div className="w-full md:w-2/3 flex flex-col text-[15px] md:px-9">
-          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+        <div
+          className={cn(
+            "w-full md:w-2/3 flex flex-col text-[15px] md:px-9",
+            openSans.className
+          )}
+        >
+          <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Client </p>
             <p>Barter S.A</p>
           </div>
-          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+          <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Services</p>
             <p>Website Redesign</p>
           </div>
-          <div className="flex items-center justify-between h-[70px]  border-b-2 py-14">
+          <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Year</p>
             <p>2024</p>
           </div>
-          <div className="flex items-center justify-between h-[70px]  py-14">
+          <div className="flex items-center justify-between h-[70px]  md:py-14">
             <p>Site</p>
-            <p className=" underline underline-offset-1">Visit Website</p>
+            <p className=" underline underline-offset-2">Visit Website</p>
           </div>
         </div>
       </div>
+      {/* Image pair */}
+      <div className="w-full flex flex-col md:flex-row gap-10">
+          <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
+          <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
+      </div>
+
+       <div
+        className={cn(
+          "mt-10 md:mt-8 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
+          clashDisplay.className
+        )}
+      ></div>
+
+      <Footer />
     </div>
   );
 }

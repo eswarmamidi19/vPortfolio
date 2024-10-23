@@ -3,6 +3,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import localFont from "next/font/local";
+import { cn } from "@/lib/utils";
+
+const clashDisplay = localFont({
+  src: "../public/fonts/ClashDisplay.ttf",
+});
 
 const Hero = () => {
   return (
@@ -49,11 +55,20 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="Varun Gupta"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className={cn(
+              "text-center text-[40px] md:text-5xl lg:text-6xl",
+              clashDisplay.className
+            )}
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Product Designer and Developer.
+          <p
+            className={cn(
+              "text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl",
+              clashDisplay.className
+            )}
+          >
+            I&apos;m a user experience & interface designer from India, focusing
+            on building functional websites & fresh designs
           </p>
 
           <a href="#about">

@@ -2,10 +2,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
-
+import localFont from "next/font/local";
+import { cn } from "@/lib/utils";
+const clashDisplay = localFont({
+  src: "../public/fonts/ClashDisplay.ttf",
+});
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-20" id="contact">
+    <footer className={ cn("w-full pt-20 pb-20",clashDisplay.className)} id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img

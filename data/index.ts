@@ -78,8 +78,8 @@ export const projects = [
     des: "The InsightBlend Analytics website was crafted through extensive user research to understand user needs and pain points. By iterating wireframes and prototypes, we designed a clean, intuitive interface that simplifies complex data insights. Thoughtfully placed visual elements and smooth animations enhance the user experience, ensuring seamless navigation and engagement.",
     img: "/insight.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/figma.png"],
-    link: "https://insightblend.com/",
-    holder: "https://insightblend.com/",
+    link: "/insightblend",
+    holder: "InsightBlend",
   },
   {
     id: 2,
