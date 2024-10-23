@@ -8,6 +8,7 @@ const openSans = Open_Sans({
   display: "swap",
 });
 
+
 const clashDisplay = localFont({
   src: "../../../public/fonts/clashDisplay.ttf",
 });
