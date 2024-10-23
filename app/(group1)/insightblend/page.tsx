@@ -3,14 +3,13 @@ import { Open_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/Footer";
-
 const openSans = Open_Sans({
   subsets: ["latin"],
   display: "swap",
 });
 
 const clashDisplay = localFont({
-  src: "../(fonts)/clashDisplay.ttf",
+  src: "../../../public/fonts/ClashDisplay.ttf",
 });
 
 export default function Page() {
