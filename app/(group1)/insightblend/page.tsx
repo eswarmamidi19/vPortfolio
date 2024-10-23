@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 const openSans = Open_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -43,10 +44,12 @@ export default function Page() {
       {/* Main Project Image */}
       <div
         className={cn(
-          "mt-10 md:mt-20 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
+          "mt-10 md:mt-20 w-full bg-green-700 rounded-lg md:rounded-3xl",
           clashDisplay.className
         )}
-      ></div>
+      >
+        <img src="insight_cover2.png" className=" rounded-lg md:rounded-3xl"/>
+      </div>
       {/* Project details */}
       <div
         className={cn(
@@ -97,18 +100,27 @@ export default function Page() {
         </div>
       </div>
       {/* Image pair */}
-      <div className="w-full flex flex-col md:flex-row gap-10">
-        <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
-        <div className="w-full md:w-1/2 h-[200px] md:h-[600px] bg-green-700  rounded-3xl"></div>
-      </div>
+        
+        <div className="w-full flex flex-col md:flex-row gap-10">
+            <div className="rounded-3xl">
+            <img src="insight_cover3.png" className="rounded-3xl" />
+        </div>
 
-      <div
+        <div className="rounded-3xl">
+            <img src="insight_cover3.png "className="rounded-3xl"/>
+        </div>
+     
+      </div>
+        
+         <div
         className={cn(
-          "mt-10 md:mt-8 w-full bg-green-700  h-[200px] md:h-[500px]  rounded-3xl",
+          "mt-10 md:mt-8 rounded-3xl flex justify-center items-center",
           clashDisplay.className
         )}
-      ></div>
-
+      >
+         <img src="ins_gif2.gif"  className="md:h-[500px] rounded-3xl"/>
+      </div>
+      
       <Footer />
     </div>
   );

@@ -19,10 +19,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.holder}
-              href=""
-            >
+            <PinContainer title={item.holder} href="">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -30,11 +27,7 @@ const RecentProjects = () => {
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className=""
-                />
+                <img src={item.img} alt="cover" className="" />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -66,7 +59,10 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <Link href={item.link}  className="flex justify-center items-center">
+                <Link
+                  href={item.link}
+                  className="flex justify-center items-center"
+                >
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check This Out
                   </p>
