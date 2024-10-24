@@ -87,7 +87,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/Heydu.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.png"],
-    link: "https://shorturl.at/iwqh2",
+    link: "/heydu",
     holder: "Heydu",
   },
   {

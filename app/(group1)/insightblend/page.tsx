@@ -32,7 +32,7 @@ export default function Page() {
       <div
         className={cn(
           "mt-20 md:mt-[250px] text-[11px] md:text-[30px] flex justify-between items-center",
-          openSans.className
+          clashDisplay.className
         )}
       >
         <h4>E-commerce powered by AI selling user</h4>
@@ -44,7 +44,7 @@ export default function Page() {
       {/* Main Project Image */}
       <div
         className={cn(
-          "mt-10 md:mt-20 w-full bg-green-700 rounded-lg md:rounded-3xl",
+          "mt-10 md:mt-20 w-full rounded-lg md:rounded-3xl",
           clashDisplay.className
         )}
       >
@@ -107,7 +107,7 @@ export default function Page() {
         </div>
 
         <div className="rounded-3xl">
-            <img src="insight_cover3.png "className="rounded-3xl"/>
+            <img src="insight_cover4.png "className="rounded-3xl"/>
         </div>
      
       </div>
@@ -118,7 +118,8 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-         <img src="ins_gif2.gif"  className="md:h-[500px] rounded-3xl"/>
+         <img src="ins_gif2.gif"  className="md:hidden rounded-3xl"/>
+         <img src="ins_gif4.gif"  className=" hidden md:block md:h-[500px] rounded-3xl"/>
       </div>
       
       <Footer />
