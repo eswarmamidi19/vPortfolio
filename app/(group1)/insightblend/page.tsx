@@ -48,7 +48,7 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        <img src="insight_cover2.png" className=" rounded-lg md:rounded-3xl"/>
+        <img src="insight_cover2.png" fetchPriority="high" className=" rounded-lg md:rounded-3xl"/>
       </div>
       {/* Project details */}
       <div
