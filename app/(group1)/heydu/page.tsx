@@ -48,7 +48,11 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        <img src="heydu_cover1.png" fetchPriority="high" className=" rounded-lg md:rounded-3xl"/>
+        <img
+          src="heydu_cover1.png"
+          fetchPriority="high"
+          className=" rounded-lg md:rounded-3xl"
+        />
       </div>
       {/* Project details */}
       <div
@@ -64,10 +68,16 @@ export default function Page() {
           </h2>
           <div className=" text-sm md:text-xl flex flex-col gap-3 ">
             <div>
-              Empowering Students to Navigate Their Career Paths with Confidence and Insight in a Rapidly Evolving World
+              Empowering Students to Navigate Their Career Paths with Confidence
+              and Insight in a Rapidly Evolving World
             </div>
             <div className="text-gray-500">
-              Heydu is an innovative platform transforming how students explore and shape their careers. The company's primary focus is leveraging AI through its flagship tool, C-RAP (Career Research and Analysis Platform), to provide personalized insights, emerging trends, and resources. Heydu empowers students to make informed decisions and confidently pave their path in a rapidly evolving world.
+              Heydu is an innovative platform transforming how students explore
+              and shape their careers. The company primary focus is leveraging
+              AI through its flagship tool, C-RAP (Career Research and Analysis
+              Platform), to provide personalized insights, emerging trends, and
+              resources. Heydu empowers students to make informed decisions and
+              confidently pave their path in a rapidly evolving world.
             </div>
           </div>
         </div>
@@ -97,28 +107,30 @@ export default function Page() {
         </div>
       </div>
       {/* Image pair */}
-        
-        <div className="w-full flex flex-col md:flex-row gap-10">
-            <div className="rounded-3xl ">
-            <img src="Heydu2.png" className="rounded-3xl" />
+
+      <div className="w-full flex flex-col md:flex-row gap-10">
+        <div className="rounded-3xl ">
+          <img src="Heydu2.png" className="rounded-3xl" />
         </div>
 
         <div className="rounded-3xl ">
-            <img src="heydu_cover3.png "className="rounded-3xl"/>
+          <img src="heydu_cover3.png " className="rounded-3xl" />
         </div>
-     
       </div>
-        
-         <div
+
+      <div
         className={cn(
           "mt-10 md:mt-8 rounded-3xl flex justify-center items-center",
           clashDisplay.className
         )}
       >
-         <img src="hey_gif1.gif"  className="md:hidden rounded-3xl"/>
-         <img src="hey_gif1.gif"  className=" hidden md:block md:h-[500px] rounded-3xl"/>
+        <img src="hey_gif1.gif" className="md:hidden rounded-3xl" />
+        <img
+          src="hey_gif1.gif"
+          className=" hidden md:block md:h-[500px] rounded-3xl"
+        />
       </div>
-      
+
       <Footer />
     </div>
   );
