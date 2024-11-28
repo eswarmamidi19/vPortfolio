@@ -94,9 +94,9 @@ export const projects = [
     id: 3,
     title: "Placement Plus",
     des: "Designed an intuitive and efficient platform to streamline the tracking of missed job applications and notifications. Crafted user-centric interfaces that help students effortlessly manage job applications, exam schedules, and important deadlines, while enhancing platform adoption across educational institutions.",
-    img: "/pp.png",
+    img: "/plus_tn.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.png"],
-    link: "",
+    link: "/placementplus",
     holder: "Placement Plus",
   },
   {

@@ -35,7 +35,7 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        <h4>E-commerce powered by AI selling user</h4>
+        <h4 className="invisible">E-commerce powered by AI selling user</h4>
         <div className="flex justify-center items-center gap-2">
           Discover <FaArrowTurnDown />
         </div>
@@ -64,13 +64,10 @@ export default function Page() {
           </h2>
           <div className=" text-sm md:text-xl flex flex-col gap-3 ">
             <div>
-              Barter S.A. is a dynamically developing company in the energy
-              sector
-            </div>
+           Insight Blend Analytics transforms education by offering cutting-edge training in Microsoft certifications and Power BI tools, enabling learners to excel in the data-driven world.
+            </div> 
             <div className="text-gray-500">
-              The Company &apos;s basic business profile is the sale and
-              distribution of liquefied petroleum gas, LNG and fertilizers.
-              BARTER S.A. is a stable, constantly developing business partner.
+               Insight Blend Analytics is a cutting-edge educational platform redefining modern learning. Specializing in Microsoft certifications and Power BI tools, the company bridges the gap between theoretical knowledge and industry demands.
             </div>
           </div>
         </div>
@@ -83,11 +80,11 @@ export default function Page() {
         >
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Client </p>
-            <p>Barter S.A</p>
+            <p>InsightBlend Analytics ltd</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Services</p>
-            <p>Website Redesign</p>
+            <p>Website Redesign  &amp; Development</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Year</p>
@@ -95,7 +92,7 @@ export default function Page() {
           </div>
           <div className="flex items-center justify-between h-[70px]  md:py-14">
             <p>Site</p>
-            <p className=" underline underline-offset-2">Visit Website</p>
+            <p className=" underline underline-offset-2">https://insightblend.com</p>
           </div>
         </div>
       </div>

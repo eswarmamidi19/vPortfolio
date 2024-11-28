@@ -35,7 +35,7 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        <h4>E-commerce powered by AI selling user</h4>
+        <h4 className="invisible">E-commerce powered by AI selling user</h4>
         <div className="flex justify-center items-center gap-2">
           Discover <FaArrowTurnDown />
         </div>
@@ -64,13 +64,10 @@ export default function Page() {
           </h2>
           <div className=" text-sm md:text-xl flex flex-col gap-3 ">
             <div>
-              Barter S.A. is a dynamically developing company in the energy
-              sector
+              Empowering Students to Navigate Their Career Paths with Confidence and Insight in a Rapidly Evolving World
             </div>
             <div className="text-gray-500">
-              The Company &apos;s basic business profile is the sale and
-              distribution of liquefied petroleum gas, LNG and fertilizers.
-              BARTER S.A. is a stable, constantly developing business partner.
+              Heydu is an innovative platform transforming how students explore and shape their careers. The company's primary focus is leveraging AI through its flagship tool, C-RAP (Career Research and Analysis Platform), to provide personalized insights, emerging trends, and resources. Heydu empowers students to make informed decisions and confidently pave their path in a rapidly evolving world.
             </div>
           </div>
         </div>
@@ -83,11 +80,11 @@ export default function Page() {
         >
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Client </p>
-            <p>Barter S.A</p>
+            <p>Heydu LTD</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Services</p>
-            <p>Website Redesign</p>
+            <p>Website and app design</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Year</p>
@@ -95,19 +92,19 @@ export default function Page() {
           </div>
           <div className="flex items-center justify-between h-[70px]  md:py-14">
             <p>Site</p>
-            <p className=" underline underline-offset-2">Visit Website</p>
+            <p className=" underline underline-offset-2">heydu.biz</p>
           </div>
         </div>
       </div>
       {/* Image pair */}
         
         <div className="w-full flex flex-col md:flex-row gap-10">
-            <div className="rounded-3xl">
-            <img src="insight_cover3.png" className="rounded-3xl" />
+            <div className="rounded-3xl ">
+            <img src="Heydu2.png" className="rounded-3xl" />
         </div>
 
-        <div className="rounded-3xl">
-            <img src="insight_cover4.png "className="rounded-3xl"/>
+        <div className="rounded-3xl ">
+            <img src="heydu_cover3.png "className="rounded-3xl"/>
         </div>
      
       </div>
@@ -118,8 +115,8 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-         <img src="ins_gif2.gif"  className="md:hidden rounded-3xl"/>
-         <img src="ins_gif4.gif"  className=" hidden md:block md:h-[500px] rounded-3xl"/>
+         <img src="hey_gif1.gif"  className="md:hidden rounded-3xl"/>
+         <img src="hey_gif1.gif"  className=" hidden md:block md:h-[500px] rounded-3xl"/>
       </div>
       
       <Footer />

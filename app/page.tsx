@@ -19,6 +19,7 @@ import {
   IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   const links = [
@@ -52,17 +53,9 @@ const Home = () => {
   ];
   return (
     <div className="max-w-7xl w-full">
-      {/* <FloatingNav navItems={navItems} /> */}
-      <FloatingDock
-        mobileClassName="" // only for demo, remove for production
-        desktopClassName={cn("fixed z-[99999] top-20 left-[40%] opacity-80")}
-        items={links}
-      />
-      {/* <h1 className="bg-red-700 text-3xl w-full absolute top-40 z-10">
-          Hello{" "}
-        </h1> */}
+  
       <Hero />
-      {/* <FloatingNav navItems={navItems} /> */}
+       <FloatingNav navItems={navItems} /> 
       <Grid />
       <RecentProjects />
       {/* <Clients /> */}
