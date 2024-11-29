@@ -53,16 +53,16 @@ export default function Page() {
       {/* Project details */}
       <div
         className={cn(
-          "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:gap-0 ",
+          "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:items-center md:gap-0 ",
           clashDisplay.className
         )}
       >
         {/* details */}
         <div className="flex flex-col w-full md:w-1/3 gap-3 ">
-          <h2 className="text-[30px] md:text-[50px] ">
+          <h2 className="text-[30px] lg:text-[50px] ">
             <span className="text-gray-500"> Project</span> Details
           </h2>
-          <div className=" text-sm md:text-xl flex flex-col gap-3 ">
+          <div className=" text-sm lg:text-xl flex flex-col gap-3 ">
             <div>
            Insight Blend Analytics transforms education by offering cutting-edge training in Microsoft certifications and Power BI tools, enabling learners to excel in the data-driven world.
             </div> 
@@ -84,7 +84,7 @@ export default function Page() {
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Services</p>
-            <p>Website Redesign  &amp; Development</p>
+            <p>Website Redesign</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Year</p>

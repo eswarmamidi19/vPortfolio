@@ -25,7 +25,7 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        <h2>InsightBlend-Analytics</h2>
+        <h2>Minima UI</h2>
         <h2>2024</h2>
       </div>
 
@@ -35,7 +35,7 @@ export default function Page() {
           clashDisplay.className
         )}
       >
-        {/*<h4>E-commerce powered by AI selling user</h4>*/}
+        <h4 className="invisible">E-commerce powered by AI selling user</h4>
         <div className="flex justify-center items-center gap-2">
           Discover <FaArrowTurnDown />
         </div>
@@ -53,24 +53,21 @@ export default function Page() {
       {/* Project details */}
       <div
         className={cn(
-          "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:gap-0 ",
+          "mt-10 md:mt-20 w-full flex flex-col gap-5 md:flex-row md:items-center md:gap-0 ",
           clashDisplay.className
         )}
       >
         {/* details */}
         <div className="flex flex-col w-full md:w-1/3 gap-3 ">
-          <h2 className="text-[30px] md:text-[50px] ">
+          <h2 className="text-[30px] lg:text-[50px] ">
             <span className="text-gray-500"> Project</span> Details
           </h2>
-          <div className=" text-sm md:text-xl flex flex-col gap-3 ">
+          <div className=" text-sm lg:text-xl flex flex-col gap-3 ">
             <div>
-              Barter S.A. is a dynamically developing company in the energy
-              sector
+              Sleek, Simple, and Modern: A Design System Crafted for the Future
             </div>
             <div className="text-gray-500">
-              The Company &apos;s basic business profile is the sale and
-              distribution of liquefied petroleum gas, LNG and fertilizers.
-              BARTER S.A. is a stable, constantly developing business partner.
+              MINIMA UI is a cutting-edge minimalist design system that seamlessly blends elegance with functionality. Designed to provide a clean, intuitive user experience, it simplifies the process of building modern, visually striking digital products. Perfect for developers and designers alike, it offers a robust toolkit to create responsive, user-friendly interfaces with a strong focus on usability, scalability, and aesthetic simpl
             </div>
           </div>
         </div>
@@ -83,11 +80,11 @@ export default function Page() {
         >
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Client </p>
-            <p>Barter S.A</p>
+            <p>Open source</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Services</p>
-            <p>Website Redesign</p>
+            <p>Design system</p>
           </div>
           <div className="flex items-center justify-between h-[70px]  border-b-2 md:py-14">
             <p>Year</p>
@@ -95,7 +92,7 @@ export default function Page() {
           </div>
           <div className="flex items-center justify-between h-[70px]  md:py-14">
             <p>Site</p>
-            <p className=" underline underline-offset-2">Visit Website</p>
+            <p className=" underline underline-offset-2">Figma Comunity</p>
           </div>
         </div>
       </div>

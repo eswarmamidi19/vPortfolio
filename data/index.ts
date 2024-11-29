@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 2,
     title: "Heydu",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Empowering Students to Navigate Their Career Paths with Confidence and Insight in a Rapidly Evolving World",
     img: "/Heydu.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.png"],
     link: "/heydu",
@@ -101,18 +101,16 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Software Square",
-    des: "Designing a modern landing page for Software Square, a startup dedicated to tech enthusiasts. The design emphasizes a clean and responsive layout, ensuring seamless user experience across devices.",
-    img: "/ss.webp",
+    title: "Minima UI",
+    des: "Sleek, Simple, and Modern: A Design System Crafted for the Future",
+    img: "/minima_tn.jpg",
     iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
+ 
       "/figma.png",
+      "/adobe.png"
     ],
-    link: "https://software-square.vercel.app/",
-    holder: "Software Square",
+    link: "/minima_ui",
+    holder: "Minima UI",
   },
 ];
 
