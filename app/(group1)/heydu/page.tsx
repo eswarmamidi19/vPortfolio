@@ -15,10 +15,7 @@ const clashDisplay = localFont({
 
 export default function Page() {
   return (
-    <div
-      className=" pb-40 md:pb-20 pt-10  md:pt-36 px-4 md:px-10 w-screen pointer-events-none flex flex-col    
-      [mask-image:radial-gradient(ellipse_at_center,transparent_20%]"
-    >
+    <div>
       <div
         className={cn(
           "text-[20px] md:text-[58px]  flex justify-between ",
@@ -63,10 +60,10 @@ export default function Page() {
       >
         {/* details */}
         <div className="flex flex-col w-full md:w-1/3 gap-3 ">
-          <h2 className="text-[30px] md:text-[50px] ">
+          <h2 className="text-[30px] lg:text-[50px] ">
             <span className="text-gray-500"> Project</span> Details
           </h2>
-          <div className=" text-sm md:text-xl flex flex-col gap-3 ">
+          <div className=" text-sm lg:text-xl flex flex-col gap-3 ">
             <div>
               Empowering Students to Navigate Their Career Paths with Confidence
               and Insight in a Rapidly Evolving World
@@ -131,7 +128,6 @@ export default function Page() {
         />
       </div>
 
-      <Footer />
     </div>
   );
 }

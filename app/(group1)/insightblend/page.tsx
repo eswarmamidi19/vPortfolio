@@ -15,10 +15,7 @@ const clashDisplay = localFont({
 
 export default function Page() {
   return (
-    <div
-      className=" pb-40 md:pb-20 pt-10  md:pt-36 px-4 md:px-10 w-screen pointer-events-none flex flex-col    
-      [mask-image:radial-gradient(ellipse_at_center,transparent_20%]"
-    >
+    <div>
       <div
         className={cn(
           "text-[20px] md:text-[58px]  flex justify-between ",
@@ -119,7 +116,7 @@ export default function Page() {
          <img src="ins_gif4.gif"  className=" hidden md:block md:h-[500px] rounded-3xl"/>
       </div>
       
-      <Footer />
+
     </div>
   );
 }
