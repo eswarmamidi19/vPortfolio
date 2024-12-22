@@ -42,8 +42,8 @@ export const gridItems = [
     id: 4,
     title: "Checkout my ramblings here",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "ml-[60%] rounded-xl mt-24 hover:scale-x-105",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1 lg:h-52",
+    imgClassName: "ml-[65%] rounded-xl mt-24  hover:scale-x-105",
     titleClassName: "justify-start",
     img: "blog.jpg",
     spareImg: "",
@@ -63,7 +63,7 @@ export const gridItems = [
     id: 6,
     title: "Do you want to start a project together?",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1 lg:h-52",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -104,11 +104,7 @@ export const projects = [
     title: "Minima UI",
     des: "Sleek, Simple, and Modern: A Design System Crafted for the Future",
     img: "/minima_tn.jpg",
-    iconLists: [
- 
-      "/figma.png",
-      "/adobe.png"
-    ],
+    iconLists: ["/figma.png", "/adobe.png"],
     link: "/minima_ui",
     holder: "Minima UI",
   },

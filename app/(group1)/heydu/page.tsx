@@ -117,7 +117,7 @@ export default function Page() {
 
       <div
         className={cn(
-          "mt-10 md:mt-8 rounded-3xl flex justify-center items-center",
+          "mt-10 md:mt-8 md:mb-20 rounded-3xl flex justify-center items-center",
           clashDisplay.className
         )}
       >
@@ -127,7 +127,6 @@ export default function Page() {
           className=" hidden md:block md:h-[500px] rounded-3xl"
         />
       </div>
-
     </div>
   );
 }

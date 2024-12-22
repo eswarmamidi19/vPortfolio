@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
+import { FaLocationArrow } from "react-icons/fa6";
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
@@ -98,8 +98,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -139,9 +140,17 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 4 && (
-            <a href="www.google.com" target="_blank">
-
-            </a>
+            <div className="h-[20%] w-[20%]">
+              <a href="https://medium.com/@bvarungupta" target="_blank">
+                <MagicButton
+                  title="Read Now"
+                  icon={<FaLocationArrow />}
+                  position="left"
+                  handleClick={handleCopy}
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
+            </div>
           )}
 
           {/* Tech stack list div */}
@@ -181,8 +190,9 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
