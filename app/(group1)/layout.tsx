@@ -17,7 +17,7 @@ type LayoutProps = {
 };
 export default function ProjectLayouts({ children }: LayoutProps) {
   // const navItems = [
-  //   { name: "Home", link: "/" },
+  //   { name: "Home", link: "/"},
   //   { name: "Projects", link: "#projects" },
   //   { name: "Approach", link: "#approach" },
   //   { name: "Contact", link: "#contact" },
