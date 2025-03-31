@@ -72,7 +72,7 @@ const Hero = () => {
             on building functional websites & fresh designs
           </p>
 
-          <a href="./VarunResume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="./Vpdf.pdf" target="_blank" rel="noopener noreferrer">
             <MagicButton
               title="Check out my CV"
               icon={<SiReaddotcv className="h-20" />}
